@@ -1,0 +1,2 @@
+# swiperjs
+Ionic swiperjs
