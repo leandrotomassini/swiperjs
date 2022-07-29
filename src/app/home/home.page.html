@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-card>
+    <swiper #swiper [config]="config" (slideChange)="swiperSlideChanged($event)">
+      <ng-template swiperSlide>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_878981-MLA48808509840_012022-O.webp" width="150" height="150"/>
+        <ion-title> Slide 1</ion-title>
+      </ng-template>
+      <ng-template swiperSlide>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_878981-MLA48808509840_012022-O.webp" width="150" height="150"/>
+        <ion-title> Slide 2</ion-title>
+      </ng-template>
+      <ng-template swiperSlide>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_878981-MLA48808509840_012022-O.webp" width="150" height="150"/>
+        <ion-title> Slide 3</ion-title>
+      </ng-template>
+      <ng-template swiperSlide>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_878981-MLA48808509840_012022-O.webp" width="150" height="150"/>
+        <ion-title> Slide 4</ion-title>
+      </ng-template>
+      <ng-template swiperSlide>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_878981-MLA48808509840_012022-O.webp" width="150" height="150"/>
+        <ion-title> Slide 5</ion-title>
+      </ng-template>
+      <ng-template swiperSlide>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_878981-MLA48808509840_012022-O.webp" width="150" height="150"/>
+        <ion-title> Slide 6</ion-title>
+      </ng-template>
+    </swiper>
+  </ion-card>
+
+
+</ion-content>
